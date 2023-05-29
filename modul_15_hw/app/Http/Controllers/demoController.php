@@ -22,11 +22,16 @@ class demoController extends Controller
 
 // //👀👀Task 4: Route Middleware
 
-function author1(){
-        return "This is a profile";
-}
-function author2(){
-        return "This is a setting";
+// function author1(){
+//         return "This is a profile";
+// }
+// function author2(){
+//         return "This is a setting";
+// }
+
+
+function action(){
+                return view('Component.Home');
 }
 
 

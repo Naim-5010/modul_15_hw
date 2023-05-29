@@ -27,12 +27,14 @@ class requestmiddleware
 
         // //👀👀Task 4: Route Middleware
 
-        $pass = $request->header('pass');
-        if($pass == 1234){
-            return $next($request);
-        }else{
-            return response()->json("unautorize", 401);
-        }
+        // $pass = $request->header('pass');
+        // if($pass == 1234){
+        //     return $next($request);
+        // }else{
+        //     return response()->json("unautorize", 401);
+        // }
+
+        return $next($request);
       
         
     }

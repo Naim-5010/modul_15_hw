@@ -57,3 +57,11 @@ use App\Http\Controllers\ProductController;
 
 // //👀👀 Task 7: Resource Controller
 // Route::resource('photo', PostController::class);
+
+
+
+
+// //👀👀 blade
+
+
+Route::get('/blade', [demoController::class, "action"]);
